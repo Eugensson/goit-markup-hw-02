@@ -15,9 +15,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
-  letter-spacing: 0.03em;
 }
 
 .link {
@@ -35,10 +35,10 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  font-family: inherit;
+  cursor: pointer;
   color: var(--white-text-color);
   background-color: var(--button-primary-background-color);
-  cursor: pointer;
-  font-family: inherit;
 }
 
 .button-hero:hover,
@@ -52,6 +52,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   font-family: inherit;
+  cursor: pointer;
   color: var(--primary-text-color);
   background-color: var(--button-secondary-background-color);
 }
@@ -76,7 +77,7 @@ body {
   color: var(--accent-text-color);
 }
 
-.logo-footer {
+.logo-cellar {
   color: var(--white-text-color);
 }
 
@@ -120,10 +121,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--white-text-color);
 }
 
@@ -148,14 +147,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-
   text-transform: uppercase;
 }
 
 .preference-text {
   font-size: 14px;
   line-height: 1.71;
-
   color: var(--secondary-text-color);
 }
 
@@ -207,23 +204,23 @@ body {
 
 /* Footer */
 
-.footer {
+.cellar {
   background-color: var(--footer-background-color);
 }
 
 .adress {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-text-color);
-  font-style: normal;
 }
 
 .adress-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--footer-link-color);
-  font-style: normal;
 }
 
 .adress-link:hover,
